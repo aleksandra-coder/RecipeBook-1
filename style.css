@@ -1,0 +1,38 @@
+body {
+    background-color: #ccc;
+}
+
+
+/*Styling cards*/
+
+.card {
+    width: 25rem;
+    margin-top: 30px;
+}
+
+.card-img-top {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
+.card-title {
+    text-transform: capitalize;
+}
+
+svg {
+    margin-left: 15px;
+}
+
+
+/*Styling Add recipe page*/
+
+.col-lg-6 {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.col-md-8 {
+    background-color: #000;
+    padding: 40px;
+}
