@@ -1,0 +1,108 @@
+body {
+    background-color: #fdf6e6;
+}
+
+.navbar-custom {
+    background-color: #a1e8fa;
+    color: #065d8b;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.navbar-brand {
+    color: #3c3d5e;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #0b537a; 
+    background-color: #a1e8fa;
+}
+
+h4 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #0b537a; 
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #3c3d5e; 
+    font-size: 18px;
+}
+
+.error {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #7e0e0e;
+}
+
+/*Styling cards*/
+
+.card {
+    margin-top: 30px;
+}
+
+.card-body {
+    padding: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #3c3d5e;
+}
+
+.card-columns {
+    display: inline-block;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 25px;
+    color: #3c3d5e;
+}
+
+.list-group {
+    margin: 30px 0px 30px 0px;
+}
+
+.list-group li:nth-child(odd) {
+    background: #fcfcfc;
+}
+
+svg {
+    margin-left: 15px;
+}
+
+/*Styling login & Add recipe pages*/
+
+.col-lg-6 {
+    background-color:#fdf6e6;
+    padding: 40px;
+}
+
+.col-lg-4 {
+    background-color:#fdf6e6;
+    padding: 50px;
+}
+
+.col-md-8 {
+    background-color: #000;
+    padding: 40px;
+}
+
+label {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #226183;
+    font-size: 20px;   
+}
+
