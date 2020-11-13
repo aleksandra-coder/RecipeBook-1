@@ -1,8 +1,8 @@
 <?php
-$servername = "127.0.0.1:51111";
+$servername = "127.0.0.1:51010";
 $username = "azure";
 $password = "6#vWHD_$";
-$dbname = "recipebook";
+$dbname = "localdb";
   // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 

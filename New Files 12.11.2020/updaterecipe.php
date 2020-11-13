@@ -103,7 +103,6 @@ if (!empty($_POST["addPhoto"])) {
             $fileDestination = RECIPE_UPLOAD_PATH . $fileNewName; 
             // moving to the images folder
             move_uploaded_file($fileTmpName, $fileDestination);
-            // $conn = new mysqli($servername, $username, $password, $dbname);
             header("Location: drinks.php?uploadsuccess");
          } else {
             $addPhotoErr = "Your file is too big.";
@@ -196,9 +195,6 @@ if ($conn->query($sql) === TRUE) {
                 </div>
             </div>
             <div class="form-group">
-               <!--<label>Name of the dish</label><input type="text" class="form-control" name="dishName" id="dishName" value="<?php echo $dishName;?>">
-               <span class="error">* <?php echo $dishNameErr;?></span>-->
-                
                <label>Name of the dish</label>
                <select class="form-control"  name="dishName" id="dishName"><option selected disabled>Choose the recipe</option>
                     <?php while ($row = mysqli_fetch_array($result)){ ?>

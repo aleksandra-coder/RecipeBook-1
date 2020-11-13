@@ -80,7 +80,6 @@ function test_input($data) {
       
      //   adding photos, first setting variables
   $photo = $_FILES['addPhoto'];
-
   $addPhoto = $_FILES['addPhoto']['name'];
   $fileTmpName = $_FILES['addPhoto']['tmp_name'];
   $fileSize = $_FILES['addPhoto']['size'];
@@ -131,7 +130,9 @@ require_once "appvars.php";
 $query = "SELECT recipeID FROM recipe"; // to fetch recipeIDs from the table
 
 $result = mysqli_query($conn, $query); // execute the query and store the result set 
-      
+
+// to execute the query to select images from recipe table
+$result = mysqli_query($conn, "SELECT Images FROM recipe");
 
 // Initialize the session
 session_start();

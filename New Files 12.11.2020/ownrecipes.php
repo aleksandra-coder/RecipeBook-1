@@ -102,7 +102,7 @@ $conn->close(); //close the connection
                   if ( is_file (RECIPE_UPLOAD_PATH . $row['Images']) && filesize (RECIPE_UPLOAD_PATH . $row['Images']) > 0 ) {
                      echo '<img class="card-img-top" src=" ' . RECIPE_UPLOAD_PATH . $row['Images'] . '" alt="recipe image" />';
                   } else {
-                     echo '<img class="card-img-top" src=" ' . RECIPE_UPLOAD_PATH . 'unverified.gif' . '" alt="unverified image" />';
+                     echo '<img class="card-img-top" src=" ' . RECIPE_UPLOAD_PATH . 'noimage.jpg' . '" alt="unverified image" />';
                   } 
                ?>
                <div class="card-body">
